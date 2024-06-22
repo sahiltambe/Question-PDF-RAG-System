@@ -37,7 +37,11 @@ Load the documents:
     ```sh
     documents = SimpleDirectoryReader("/content/Data").load_data()
     print(documents)
-    ```    
+    ```
+    3. Create a directory for data:
+    ```sh
+    !mkdir Data
+    ```
 
 ### Model Integration
 Login to HuggingFace and load the Mistral model:
