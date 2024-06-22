@@ -8,3 +8,4 @@ sentence_transformers
 llama-index==0.9.39
 langchain-community
 ipykernel
+streamlit
