@@ -34,14 +34,16 @@ This project demonstrates the creation of a Q&A assistant using the `VectorStore
 
 ### Data Preparation
 Load the documents:
-    ```python
+    ```sh
     documents = SimpleDirectoryReader("/content/Data").load_data()
     print(documents)
+    ```    
 
 ### Model Integration
 Login to HuggingFace and load the Mistral model:
-    ```
+    ```sh
     !huggingface-cli login  ## https://huggingface.co/settings/tokens
+    ```   
 
 ### Results
 The Q&A assistant effectively answers queries based on the provided documents, showcasing its potential for practical applications in various domains.
