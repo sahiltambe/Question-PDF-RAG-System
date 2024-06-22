@@ -5,7 +5,7 @@ accelerate
 bitsandbytes
 langchain
 sentence_transformers
-llama-index==0.9.39
+llama-index==0.10.13
 langchain-community
 ipykernel
 streamlit
