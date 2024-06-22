@@ -40,10 +40,8 @@ Load the documents:
 
 ### Model Integration
 Login to HuggingFace and load the Mistral model:
-
-sh
-Copy code
-!huggingface-cli login  ## https://huggingface.co/settings/tokens
+    ```
+    !huggingface-cli login  ## https://huggingface.co/settings/tokens
 
 ### Results
 The Q&A assistant effectively answers queries based on the provided documents, showcasing its potential for practical applications in various domains.
